@@ -2,7 +2,7 @@ package ro.fasttrackit.curs8.interfaces.credit;
 
 public class Main {
     public static void main(String[] args) {
-        PersonalAccount personalAccount = new PersonalAccount(new BrdAccount());
+        PersonalAccount personalAccount = new PersonalAccount(new BrdAccount(0));
 
         personalAccount.showSold();
         personalAccount.deposit(200);
