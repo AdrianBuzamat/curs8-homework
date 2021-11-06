@@ -2,7 +2,7 @@ package ro.fasttrackit.curs8.interfaces.advertise;
 
 public class Facebook implements AdvertisePlatform{
 
-    public String AdvertiseContent() {
+    public String advertiseContent() {
         return "\"Our services are the best\"";
     }
 

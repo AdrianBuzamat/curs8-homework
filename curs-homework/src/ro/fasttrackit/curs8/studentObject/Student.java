@@ -10,7 +10,7 @@ public class Student {
         this.name = name;
         this.grade = Math.abs(grade)>10 ? 10: Math.abs(grade);
         COUNT++;
-        SUM += Math.abs(grade);
+        SUM += Math.abs(grade)>10 ? 10: Math.abs(grade);
     }
 
     public String getName(){

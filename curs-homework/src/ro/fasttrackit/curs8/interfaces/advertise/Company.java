@@ -8,7 +8,7 @@ public class Company {
     }
 
     public void publishAdvertise() {
-        System.out.println("Publica reclama: " + advertisePlatform.AdvertiseContent() + " for a period of " + advertisePlatform.setPeriod() + " days.");
+        System.out.println("Publica reclama: " + advertisePlatform.advertiseContent() + " for a period of " + advertisePlatform.setPeriod() + " days.");
     }
 
     public void getContractCost(){

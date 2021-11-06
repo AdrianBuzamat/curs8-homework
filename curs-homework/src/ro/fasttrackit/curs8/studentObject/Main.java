@@ -6,7 +6,7 @@ public class Main {
         Student student2 = new Student("Laura Popopescu", 10);
         Student student3 = new Student("Dragos Axinte", 9);
         Student student4 = new Student("Ada Milea", 10);
-        Student student5 = new Student("Ciprian Popovici", -10);
+        Student student5 = new Student("Ciprian Popovici", -1000);
 
         System.out.println(student5.getGrade());
 

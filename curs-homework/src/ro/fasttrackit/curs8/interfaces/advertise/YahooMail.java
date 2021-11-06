@@ -1,7 +1,7 @@
 package ro.fasttrackit.curs8.interfaces.advertise;
 
 public class YahooMail implements AdvertisePlatform{
-    public String AdvertiseContent() {
+    public String advertiseContent() {
         return "\"Our services are the best\"";
     }
 

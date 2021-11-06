@@ -1,11 +1,11 @@
 package ro.fasttrackit.curs8.interfaces.credit;
 
 public class IngAccount implements CreditBank {
-    private int ingSold = 0;
+    private int ingSold;
 
-    public IngAccount() {
+    public IngAccount(int ingSold) {
 
-        ingSold = ingSold;
+        this.ingSold = ingSold;
     }
 
     public int deposit(int amountToDeposit) {

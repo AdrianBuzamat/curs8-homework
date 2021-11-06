@@ -1,7 +1,7 @@
 package ro.fasttrackit.curs8.interfaces.advertise;
 
 public interface AdvertisePlatform {
-    String AdvertiseContent();
+    String advertiseContent();
     int setPeriod();
     int getCost();
 }

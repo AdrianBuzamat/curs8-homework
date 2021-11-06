@@ -1,11 +1,11 @@
 package ro.fasttrackit.curs8.interfaces.credit;
 
 public class BtAccount implements CreditBank{
-    private int btSold = 0;
+    private int btSold;
 
-    public BtAccount() {
+    public BtAccount(int btSold) {
 
-        btSold = btSold;
+        this.btSold = btSold;
     }
 
     public int deposit(int amountToDeposit) {
